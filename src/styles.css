@@ -1,0 +1,56 @@
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  background-color: rgb(207, 111, 33);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+button.delete-button {
+  background-color: red;
+  color: white;
+  padding: 0.6px 0.6px;
+  border: none;
+  cursor: pointer;
+}
+
+button.delete-button:hover {
+  background-color: darkred;
+}
